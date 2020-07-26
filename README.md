@@ -1,8 +1,3 @@
-<div align="center">
-  <img src="./frontend/src/assets/logo-purple.svg" height="100px" alt="Gobaber"/>
-</div>
-
-<div align="center">
 
   #### Application for scheduling hours, for service providers
 
