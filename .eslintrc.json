@@ -7,8 +7,7 @@
         "airbnb-base",
         "plugin:@typescript-eslint/recommended",
         "prettier/@typescript-eslint",
-        "plugin:prettier/recommended",
-        "eslint-config-standard-with-typescript"
+        "plugin:prettier/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -17,13 +16,17 @@
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": 2018,
-        "sourceType": "module"
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
     },
     "plugins": [
         "@typescript-eslint",
         "prettier"
     ],
     "rules": {
+
       "prettier/prettier": "error",
         "import/extensions": [
             "error",
