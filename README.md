@@ -60,18 +60,18 @@
 
 ## ⚙ Tools
 ### Backend
-   - nodeJS
-    - express
-    - typescript
-    - typeorm
-    - postgres
-    - mongodb
-    - redis
-    - uuidv4
-    - date-fns
-    - multer
-    - celebrate/joi
-    - dotenv
+  - nodeJS
+  - express
+  - typescript
+   - typeorm
+  - postgres
+   - mongodb
+   - redis
+  - uuidv4
+  - date-fns
+  - multer
+  - celebrate/joi
+   - dotenv
     - class-transformer
     - jest/ts-jest
     - rate-limiter-flexible
