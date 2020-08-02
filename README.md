@@ -95,13 +95,13 @@
  - react-native-vector-icons
  - @react-native-community/async-storage
  - @react-navigation/native
-  - unform (2.0)
-  - axios
-  - styled-components
-  - yup
+ - unform (2.0)
+ - axios
+ - styled-components
+ - yup
 
-  - **Outras tecnologias**
-    - Docker
+  **Outras tecnologias**
+  - Docker
 
 
  
