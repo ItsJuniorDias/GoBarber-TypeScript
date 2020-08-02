@@ -148,4 +148,7 @@ $ cd mobile
 $ yarn android 
 
 ```
+
+📝 License
+This project is under the MIT license. See the LICENSE for more information.
  
