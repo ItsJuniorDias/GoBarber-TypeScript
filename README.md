@@ -104,4 +104,48 @@
   - Docker
 
 
+ ### Installing
+
+**Cloning the Repository**
+
+```
+$ git clone https://github.com/ItsJuniorDias/GoBarber-TypeScript.git
+
+$ cd GoBarber-TypeScript
+```
+
+**Installing dependencies**
+
+```
+$ yarn install
+```
+
+_or_
+
+```
+$ npm install
+```
+**Running**
+
+**Backend**
+
+```
+$ cd backend
+$ yarn dev
+```
+
+**Frontend**
+
+```
+$ cd frontend
+$ yarn start
+```
+
+**Mobile**
+
+```
+$ cd mobile
+$ yarn android 
+
+```
  
