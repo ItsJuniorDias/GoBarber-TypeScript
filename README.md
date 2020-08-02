@@ -4,53 +4,53 @@
 
 ## 🚀 Features
 - Password recovery
-  - ** Functional Requirements **
+  - **Functional Requirements**
    - The user must be able to recover his password informing his e-mail;
     - The user should receive an email with password recovery instructions;
     - The user must be able to reset his password
 
-  - ** Non-Functional Requirements **
+  - **Non-Functional Requirements**
    - Use ethereal to test shipments in a development environment;
     - Use Amazon SES for production shipments;
     - E-mails should be sent in the background (background job);
 
-  - ** Business Rules **
+  - **Business Rules**
    - The link sent by email to reset the password must expire in 2h;
    - The user needs to confirm the new password when resetting;
 
 - Profile update
-  - ** Functional Requirements **
+  - **Functional Requirements**
    - The user must be able to update his name, email and password
 
-  - ** Business Rules **
+  - **Business Rules**
    - The user cannot change his e-mail to one already used by another user;
    - To update your password, the user must inform the old password;
 
 - Provider panel
-  - ** Functional Requirements **
+  - **Functional Requirements**
    - The user must be able to list their schedules for a specific day;
    - The provider must receive a notification whenever there is a new appointment;
    - The provider must be able to view unread notifications;
 
-  - ** Non-Functional Requirements **
+  - **Non-Functional Requirements**
    - The provider's schedules for the day must be stored in cache;
    - The provider's notifications must be stored in MongoDB;
    - Service provider notifications must be sent in real time using Socket.io;
 
-  - ** Business Rules **
+  - **Business Rules**
    - The notification must have a read or unread status so that the provider can control;
 
 - Scheduling services
-  - ** Functional Requirements **
+  - **Functional Requirements**
    - The user must be able to list all registered service providers;
    - The user must be able to list the days, with at least one available time, of a provider in a specific month;
    - The user must be able to list the hours available on a specific day for a provider;
    - The user must be able to make a new appointment with a provider;
 
-  - ** Non-Functional Requirements **
+  - **Non-Functional Requirements**
    - The list of providers must be cached;
 
-  - ** Business Rules **
+  - **Business Rules**
    - Each appointment must last exactly 1 hour;
    - Appointments must be available between 8 am and 6 pm (first at 8 am and last at 5 pm);
    - The user cannot schedule at an already busy time;
