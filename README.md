@@ -104,7 +104,7 @@
   - Docker
 
 
- ### Installing
+ ### ℹ️ Installing
 
 **Cloning the Repository**
 
