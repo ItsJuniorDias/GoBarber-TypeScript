@@ -63,42 +63,42 @@
   - nodeJS
   - express
   - typescript
-   - typeorm
+  - typeorm
   - postgres
-   - mongodb
-   - redis
+  - mongodb
+  - redis
   - uuidv4
   - date-fns
   - multer
   - celebrate/joi
-   - dotenv
-    - class-transformer
-    - jest/ts-jest
-    - rate-limiter-flexible
-    - Amazon SES
-    - Amazon S3
+  - dotenv
+  - class-transformer
+  - jest/ts-jest
+  - rate-limiter-flexible
+  - Amazon SES
+  - Amazon S3
 
 ### Frontend
   - react
-    - typescript
-    - axios
-    - react-router-dom
-    - styled-components
-    - polished
-    - react-spring
-    - yup
-    - date-fns
-    - react-day-picker
+  - typescript
+  - axios
+  - react-router-dom
+  - styled-components
+  - polished
+  - react-spring
+  - yup
+  - date-fns
+  - react-day-picker
   
 ### Mobile 
-   - react-native
-    - react-native-vector-icons
-    - @react-native-community/async-storage
-    - @react-navigation/native
-    - unform (2.0)
-    - axios
-    - styled-components
-    - yup
+ - react-native
+ - react-native-vector-icons
+ - @react-native-community/async-storage
+ - @react-navigation/native
+  - unform (2.0)
+  - axios
+  - styled-components
+  - yup
 
   - **Outras tecnologias**
     - Docker
