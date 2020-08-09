@@ -17,8 +17,11 @@
   },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 2018,
-    "sourceType": "module"
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true // Allows for the parsing of JSX
+    }
   },
   "plugins": [
     "@typescript-eslint",
@@ -55,8 +58,8 @@
     ]
   },
   "settings": {
-    "import/resolver": {
-      "typescript": {}
+    "react": {
+      "version": "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
     }
   }
 }
