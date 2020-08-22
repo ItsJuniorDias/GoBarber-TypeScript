@@ -4,10 +4,7 @@
   "port": 5432,
   "username": "postgres",
   "password": "docker",
-  "database": "gobarber_typescript",
-  "entities": [
-    "./src/models/*.ts"
-  ],
+  "database": "gobarber",
   "migrations": [
     "./src/database/migrations/*.ts"
   ],

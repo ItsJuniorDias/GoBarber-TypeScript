@@ -1,3 +1,0 @@
-# GoBarber-TypeScript
-
-## Backend 
