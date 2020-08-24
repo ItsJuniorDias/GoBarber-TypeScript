@@ -7,7 +7,7 @@ import { Entity,
   JoinColumn
 } from 'typeorm'; 
 
-import User from './Users'; 
+import User from './User'; 
 
 @Entity('appointments')
 class Appointment {
@@ -28,7 +28,7 @@ class Appointment {
   created_at: Date;
 
   @UpdateDateColumn()
-  update_at: Date;  
+  updated_at: Date;  
 }
 
 export default Appointment;
