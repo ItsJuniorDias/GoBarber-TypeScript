@@ -26,6 +26,8 @@ module.exports = {
   rules: {
     'import/no-unresolved': 'off',
     'react-hooks/rules-of-hooks': 'error',
+    'react/jsx-props-no-spreading': 'off',
+    'react/prop-types': 'off',
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     'import/prefer-default-export': 'off',
