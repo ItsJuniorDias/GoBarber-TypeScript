@@ -24,11 +24,20 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'react-hooks', 'prettier'],
   rules: {
+    'import/no-unresolved': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     'import/prefer-default-export': 'off',
-    'prettier/prettier': 'error',
+    'prettier/prettier': [
+      'error',
+      {},
+      {
+        fileInfoOptions: {
+          withNodeModules: true,
+        },
+      },
+    ],
     'import/extensions': [
       'error',
       'ignorePackages',
