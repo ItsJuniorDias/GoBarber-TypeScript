@@ -25,6 +25,8 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'react-hooks', 'prettier'],
   rules: {
     'import/no-unresolved': 'off',
+    'no-unused-expressions': 'off',
+    '@typescript-eslint/ban-types': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     'no-undef': 'off',
