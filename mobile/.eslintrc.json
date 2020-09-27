@@ -29,6 +29,16 @@
     "prettier"
   ],
   "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "import/no-duplicates": "off",
+    "import/order": "off",
+    "import/no-self-import": "off",
+    "import/no-self-impor": "off",
+    "import/no-cycle": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "import/named": "off",
+    "import/no-unresolved": "off",
     "no-use-before-define": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -42,14 +52,7 @@
       }
     ],
     "import/prefer-default-export": "off",
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "ts": "never",
-        "tsx": "never"
-      }
-    ]
+    "import/extensions": "off"
   },
   "settings": {
     "import/resolver": {
