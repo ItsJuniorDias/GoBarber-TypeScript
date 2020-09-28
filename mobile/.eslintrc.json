@@ -32,6 +32,7 @@
     "import/no-extraneous-dependencies": "off",
     "import/no-duplicates": "off",
     "import/order": "off",
+    "import/no-useless-path-segments": "off",
     "import/no-self-import": "off",
     "import/no-self-impor": "off",
     "import/no-cycle": "off",
