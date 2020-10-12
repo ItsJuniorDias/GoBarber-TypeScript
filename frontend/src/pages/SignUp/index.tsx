@@ -28,6 +28,8 @@ const SignUp: React.FC = () => {
   const { addToast } = useToast();
   const history = useHistory();
 
+  console.log(api);
+
   const handleSubmit = useCallback(
     async (data: SignUpFormData) => {
       try {
