@@ -22,6 +22,7 @@ module.exports = {
   ],
   rules: {
     camelcase: 'off',
+    'class-methods-use-this': 'off',
     'import/no-named-as-default': 'off',
     'import/no-named-as-default-member': 'off',
     'import/no-useless-path-segments': 'off',
