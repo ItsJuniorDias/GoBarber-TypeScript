@@ -46,8 +46,6 @@ const SignIn: React.FC = () => {
 
   const { signIn } = useAuth();
 
-  console.log(user);
-
   const formRef = useRef<FormHandles>(null);
 
   const passwordInputRef = useRef<TextInput>(null);
