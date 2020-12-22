@@ -51,8 +51,6 @@ const AuthProvider: React.FC = ({ children }) => {
     loadStoragedData();
   }, []);
 
-  console.log(data);
-
   const signIn = useCallback(async ({ email, password }) => {
     const response = await api.post('sessions', {
       email,
