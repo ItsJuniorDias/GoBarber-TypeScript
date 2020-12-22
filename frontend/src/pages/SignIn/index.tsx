@@ -70,6 +70,7 @@ const SignIn: React.FC = () => {
   );
 
   return (
+
     <Container>
       <Content>
         <AnimationContainer>
