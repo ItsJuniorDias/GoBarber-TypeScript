@@ -19,13 +19,7 @@ const Routes: React.FC = () => {
     );
   }
 
-  return user ? (
-    <View>
-      <Text> Logado</Text>
-    </View>
-  ) : (
-    <AuthRoutes />
-  );
+  return user ? <AppRoutes /> : <AuthRoutes />;
 };
 
 export default Routes;
