@@ -32,12 +32,12 @@ end_of_record
 TN:
 SF:src\modules\appointments\services\ListProvidersService.ts
 FN:11,(anonymous_17)
-FN:12,ListProviderService
+FN:12,ListProvidersService
 FN:17,(anonymous_19)
 FNF:3
 FNH:3
 FNDA:1,(anonymous_17)
-FNDA:1,ListProviderService
+FNDA:1,ListProvidersService
 FNDA:1,(anonymous_19)
 DA:1,1
 DA:11,1
