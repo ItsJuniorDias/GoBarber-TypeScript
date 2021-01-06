@@ -58,4 +58,57 @@ describe('UpdateProfile', () => {
       }),
     ).rejects.toBeInstanceOf(AppError);
   });
+
+  it('should be able to update the password', async () => {
+    const user = await fakeUsersRepository.create({
+      name: 'Ale Junior',
+      email: 'junin@live.com',
+      password: '123456',
+    });
+
+    const updateUser = await updateProfile.execute({
+      user_id: user.id,
+      name: 'Bianca Valverde',
+      email: 'juniordias_@live.com',
+      old_password: '123456',
+      password: '121212',
+    });
+
+    expect(updateUser.password).toBe('121212');
+  });
+
+  it('should not be able to update the password without old password', async () => {
+    const user = await fakeUsersRepository.create({
+      name: 'Ale Junior',
+      email: 'junin@live.com',
+      password: '123456',
+    });
+
+    await expect(
+      updateProfile.execute({
+        user_id: user.id,
+        name: 'Bianca Valverde',
+        email: 'juniordias_@live.com',
+        password: '121212',
+      }),
+    ).rejects.toBeInstanceOf(AppError);
+  });
+
+  it('should not be able to update the password with wrong old password', async () => {
+    const user = await fakeUsersRepository.create({
+      name: 'Ale Junior',
+      email: 'junin@live.com',
+      password: '123456',
+    });
+
+    await expect(
+      updateProfile.execute({
+        user_id: user.id,
+        name: 'Bianca Valverde',
+        email: 'juniordias_@live.com',
+        old_password: 'wrong-old-password',
+        password: '121212',
+      }),
+    ).rejects.toBeInstanceOf(AppError);
+  });
 });
