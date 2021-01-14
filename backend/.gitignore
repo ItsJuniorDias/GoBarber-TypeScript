@@ -1,6 +1,8 @@
 node_modules
 temp
-
+.env
 tmp/*
 !tmp/.gitkeep
+
+ormconfig.json
 
